@@ -7,3 +7,6 @@ def highest(marks):
 
 def lowest(marks):
     return min(marks)
+
+def pass_count(marks, pass_mark):
+    return sum(1 for mark in marks if mark >= pass_mark)
